@@ -1,26 +1,11 @@
 
 #container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  align-content: center;
-  height: 600px;
+  width: 280px;
 }
 
-button{
-  border-radius: 50%;
-  height: 50px;
-  width: 50px;
-  font-size: 30px;
-}
-
-#displayer{
-  background-color: blue;
-  height: 50px;
-  width: 200px;
-  border-radius: 10px;
-  padding-top: 12px;
-  font-size: 30px;
-  color: white;
+#displayer {
+  height: 60px;
+  line-height: 60px;
+  font-weight: bold;
+  border: 2px solid white;
 }
